@@ -1,19 +1,16 @@
-# Template Shiny operator for Tercen
+# Pie chart Shiny operator
 
 ##### Description
 
-The `Template Shiny operator` is a template repository for the creation of Shiny operators in Tercen.
+The `Pie chart Shiny operator` is a Shiny operator which allows you to plot a Pie chart
+inside Tercen.
 
 ##### Usage
 
 Input projection|.
 ---|---
-`x-axis`        | type, description 
-`y-axis`        | type, description 
-`row`           | type, description 
-`column`        | type, description 
-`colors`        | type, description 
-`labels`        | type, description 
+`y-axis`        | count, number of occurrences of a specific label (see count operator)
+`labels`        | label, the label for the corresponding count values
 
 Output relations|.
 ---|---
@@ -21,8 +18,10 @@ Output relations|.
 
 ##### Details
 
-Details on the computation.
+Creates a Pie Chart based on the counts of a count operator and labels the counts according
+to the label of the crosstab view.
 
 ##### See Also
 
-[template_R_operator](https://github.com/tercen/template_R_operator)
+[GitHub](https://github.com/tercen/pie_chart_shiny_operator)
+[count](https://github.com/tercen/count_operator)
