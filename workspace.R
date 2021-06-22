@@ -48,7 +48,7 @@ server <- shinyServer(function(input, output, session) {
     p()
   })
   
-  p <- function() {
+  p <- reactive({
     values <- dataInput()
     
     if (length(levels(values$data$label)) > 74) {
@@ -125,7 +125,7 @@ server <- shinyServer(function(input, output, session) {
     
     plt
     
-  }
+  })
   
   output$downloadPlot <- downloadHandler(
     filename = 'pie.png',
