@@ -2,6 +2,9 @@ library(shiny)
 library(tercen)
 library(dplyr)
 library(tidyr)
+library(RColorBrewer)
+library(ggplot2)
+library(ggforce)
 
 ############################################
 #### This part should not be modified
