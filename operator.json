@@ -1,7 +1,7 @@
 {
-  "name": "Template Shiny Operator",
-  "description": "Template to create a Shiny operator in Tercen.",
-  "tags": ["template"],
-  "authors": ["tercen"],
-  "urls": ["https://github.com/tercen/template_shiny_operator"]
+  "name": "Pie chart Shiny Operator",
+  "description": "Pie chart shiny operator.",
+  "tags": ["pie-chart", "pie", "shiny"],
+  "authors": ["tercen", "wptmdoorn"],
+  "urls": ["https://github.com/tercen/count_operator"]
 }
